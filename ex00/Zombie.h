@@ -2,6 +2,7 @@
 #define ZOMBIE_H
 
 #include <iostream>
+#include <string>
 
 class Zombie
 {
@@ -13,5 +14,9 @@ class Zombie
 	~Zombie();
 	void the_phrase() const;
 };
+
+void randomChump(std::string name);
+Zombie* newZombie(std::string name);
+
 
 #endif
