@@ -4,7 +4,7 @@ COMP = c++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = newZombie.cpp randomChump.cpp Zombie.cpp main.cpp 
+SRC = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp 
 
 OBJS = $(addprefix objs/, $(SRC:.cpp=.o))
 

@@ -4,10 +4,10 @@ Zombie::Zombie(std::string name):name(name){}
 
 Zombie::~Zombie()
 {
-	std::cout << "all destroyed";
+	std::cout << name << " all destroyed\n";
 }
 
 void Zombie::the_phrase() const
 {
-	std::cout<< ": BraiiiiiiinnnzzzZ...";
+	std::cout<< name << ": BraiiiiiiinnnzzzZ...\n";
 }
