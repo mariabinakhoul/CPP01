@@ -1,10 +1,10 @@
-NAME = human
+NAME = losers
 
 COMP = c++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+SRC = main.cpp
 
 OBJS = $(addprefix objs/, $(SRC:.cpp=.o))
 
